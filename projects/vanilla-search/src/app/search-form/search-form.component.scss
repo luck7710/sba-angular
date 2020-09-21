@@ -1,0 +1,18 @@
+#micButton {
+  background-color: #ffffff;
+  color: black;
+  outline: none;
+  border: none;
+  width: 30px;
+  text-align: center;
+  border-top: 1px solid rgba(0,0,0,.2);
+  border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+#micButton:hover {
+  color: red;
+}
+
+input {
+  border-right: none!important;
+}

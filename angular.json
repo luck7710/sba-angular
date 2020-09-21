@@ -247,7 +247,7 @@
                 "lazy": true
               }            
             ],
-            "scripts": []
+            "scripts": ["projects/vanilla-search/src/assets/js/annyang.min.js"]
           },
           "configurations": {
             "production": {

@@ -13,7 +13,9 @@
                 [off]="!loginService.complete || !appService.suggestQueries"
                 [suggestQuery]="appService.suggestQueries? appService.suggestQueries[0] : ''"
                 (submit)="search()">
-
+          <button id="micButton">
+            <i (click)="startVoiceRecognition()" class="fa fa-microphone" ></i>
+          </button>
             <!-- Search button -->
             <div class="input-group-append">
                 <button class="btn btn-primary" type="button" (click)="search()" 
